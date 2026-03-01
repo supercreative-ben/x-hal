@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244413CFAE0C2775FF29FBB2 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DED846FDDCD2B070A4D893 /* SoundManager.swift */; };
+		3EFC5C5158912443CF68BC15 /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C87FC21D068DB7616320AB /* BreathingView.swift */; };
+		419A245E2A3F1386AAFF4821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25641D2D1125D31D9D2A066A /* Assets.xcassets */; };
+		487375D686E7077DD3B7EFCC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA061C5ED2E526F9084908 /* Theme.swift */; };
+		502D9AD87ED8F5430928E37D /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316CF096B859A3624436C63B /* StreakManager.swift */; };
+		709F02536A46678654C623FF /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 0A5BEACE0923578807742507 /* HotKey */; };
+		7A4D3FC3F3C466AA27EAD110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2FF87580887C7990C6168 /* AppDelegate.swift */; };
+		9D886DCA768FC3D4ACFDCB7B /* XHALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD900341A8BEE652D71277 /* XHALApp.swift */; };
+		A6AC19CFCA888871DA324B0F /* BreathingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71CD8610414E19C7796F1E /* BreathingEngine.swift */; };
+		E9E3AD04E40B13FCB44E7849 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C93ECD323068AB95FE9E80A /* StartView.swift */; };
+		F6BE883CE4B4018A1E43E4F7 /* OrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0D3515DE2A7746BA61954 /* OrbView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEC81277BA74A0D80274BA3 /* X-HAL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "X-HAL.entitlements"; sourceTree = "<group>"; };
+		158F571AC4F0F8B0E52ACABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		25641D2D1125D31D9D2A066A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		316CF096B859A3624436C63B /* StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManager.swift; sourceTree = "<group>"; };
+		31E2FF87580887C7990C6168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44C87FC21D068DB7616320AB /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		4E4AD9E510819D9F0D911C32 /* X-HAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-HAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C93ECD323068AB95FE9E80A /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		7DF0D3515DE2A7746BA61954 /* OrbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbView.swift; sourceTree = "<group>"; };
+		A2CD900341A8BEE652D71277 /* XHALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHALApp.swift; sourceTree = "<group>"; };
+		B9BA061C5ED2E526F9084908 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EB71CD8610414E19C7796F1E /* BreathingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingEngine.swift; sourceTree = "<group>"; };
+		F0DED846FDDCD2B070A4D893 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5DADB83B64B817C24134227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709F02536A46678654C623FF /* HotKey in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3E430844C256F9FA762110 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				EB71CD8610414E19C7796F1E /* BreathingEngine.swift */,
+				F0DED846FDDCD2B070A4D893 /* SoundManager.swift */,
+				316CF096B859A3624436C63B /* StreakManager.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		22A549CF8A14F61C2F0840C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25641D2D1125D31D9D2A066A /* Assets.xcassets */,
+				BD3BF986BDC9CE30B5EC6EEF /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		233154D7963C7E2B10775C9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44C87FC21D068DB7616320AB /* BreathingView.swift */,
+				7DF0D3515DE2A7746BA61954 /* OrbView.swift */,
+				6C93ECD323068AB95FE9E80A /* StartView.swift */,
+				B9BA061C5ED2E526F9084908 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		801304268F46D44B96BBEBEE = {
+			isa = PBXGroup;
+			children = (
+				B36132403C5B4736E0D7341C /* X-HAL */,
+				86865FC42BA0350BF5B4FA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86865FC42BA0350BF5B4FA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E4AD9E510819D9F0D911C32 /* X-HAL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36132403C5B4736E0D7341C /* X-HAL */ = {
+			isa = PBXGroup;
+			children = (
+				158F571AC4F0F8B0E52ACABE /* Info.plist */,
+				0BEC81277BA74A0D80274BA3 /* X-HAL.entitlements */,
+				B61CC83640BC062F352CBA86 /* App */,
+				1D3E430844C256F9FA762110 /* Engine */,
+				22A549CF8A14F61C2F0840C7 /* Resources */,
+				233154D7963C7E2B10775C9E /* Views */,
+			);
+			path = "X-HAL";
+			sourceTree = "<group>";
+		};
+		B61CC83640BC062F352CBA86 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				31E2FF87580887C7990C6168 /* AppDelegate.swift */,
+				A2CD900341A8BEE652D71277 /* XHALApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD3BF986BDC9CE30B5EC6EEF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489E60367656B888C1B21F35 /* X-HAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E1CB84421E99B2FB790C73 /* Build configuration list for PBXNativeTarget "X-HAL" */;
+			buildPhases = (
+				766D9F37655BFEDF6102E322 /* Sources */,
+				09B61C97A15A8651FCB2D814 /* Resources */,
+				C5DADB83B64B817C24134227 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X-HAL";
+			packageProductDependencies = (
+				0A5BEACE0923578807742507 /* HotKey */,
+			);
+			productName = "X-HAL";
+			productReference = 4E4AD9E510819D9F0D911C32 /* X-HAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5A9DF3B3A5961335AE032A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 9C990FDF458917D6C1F4AAF7 /* Build configuration list for PBXProject "X-HAL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 801304268F46D44B96BBEBEE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1E483E174AEACCA394E82AD3 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489E60367656B888C1B21F35 /* X-HAL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B61C97A15A8651FCB2D814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419A245E2A3F1386AAFF4821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		766D9F37655BFEDF6102E322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4D3FC3F3C466AA27EAD110 /* AppDelegate.swift in Sources */,
+				A6AC19CFCA888871DA324B0F /* BreathingEngine.swift in Sources */,
+				3EFC5C5158912443CF68BC15 /* BreathingView.swift in Sources */,
+				F6BE883CE4B4018A1E43E4F7 /* OrbView.swift in Sources */,
+				244413CFAE0C2775FF29FBB2 /* SoundManager.swift in Sources */,
+				E9E3AD04E40B13FCB44E7849 /* StartView.swift in Sources */,
+				502D9AD87ED8F5430928E37D /* StreakManager.swift in Sources */,
+				487375D686E7077DD3B7EFCC /* Theme.swift in Sources */,
+				9D886DCA768FC3D4ACFDCB7B /* XHALApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		117ABFBC269BB4474EE50EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "X-HAL/X-HAL.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "X-HAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhal.breathwork;
+				PRODUCT_NAME = "X-HAL";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		344C6CD5ABC21A219F72DD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "X-HAL/X-HAL.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "X-HAL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhal.breathwork;
+				PRODUCT_NAME = "X-HAL";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E0C13711C5E032A404FBC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		DB020CA44DF709889956BFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C990FDF458917D6C1F4AAF7 /* Build configuration list for PBXProject "X-HAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB020CA44DF709889956BFB1 /* Debug */,
+				5E0C13711C5E032A404FBC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1E1CB84421E99B2FB790C73 /* Build configuration list for PBXNativeTarget "X-HAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117ABFBC269BB4474EE50EE5 /* Debug */,
+				344C6CD5ABC21A219F72DD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E483E174AEACCA394E82AD3 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A5BEACE0923578807742507 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E483E174AEACCA394E82AD3 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A5A9DF3B3A5961335AE032A /* Project object */;
+}

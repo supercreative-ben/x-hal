@@ -1,0 +1,31 @@
+<svg width="220" height="74" viewBox="0 0 220 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pill background -->
+  <rect x="0" y="0" width="220" height="74" rx="37" fill="url(#pill-bg)"/>
+  <!-- Inner shadow simulation -->
+  <rect x="0" y="0" width="220" height="74" rx="37" fill="none" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <!-- Orb -->
+  <circle cx="49" cy="37" r="20" fill="url(#orb-glow)" opacity="0.8"/>
+  <circle cx="49" cy="37" r="20" fill="url(#orb-core)"/>
+  <!-- X-HAL text -->
+  <text x="82" y="47" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="900" letter-spacing="-0.6" fill="#000" text-rendering="geometricPrecision">X-HAL</text>
+  <defs>
+    <linearGradient id="pill-bg" x1="110" y1="0" x2="110" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#edf0f5"/>
+      <stop offset="1" stop-color="#cdd7e5"/>
+    </linearGradient>
+    <radialGradient id="orb-glow" cx="49" cy="37" r="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(43,255,255,0)" offset="0.35"/>
+      <stop stop-color="rgba(29,214,252,0.32)" offset="0.72"/>
+      <stop stop-color="rgba(15,170,248,0.66)" offset="0.85"/>
+      <stop stop-color="rgba(0,126,244,1)" offset="0.97"/>
+    </radialGradient>
+    <radialGradient id="orb-core" cx="49" cy="37" r="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0)" offset="0"/>
+      <stop stop-color="rgba(142,235,253,0.16)" offset="0.4"/>
+      <stop stop-color="rgba(86,224,252,0.24)" offset="0.61"/>
+      <stop stop-color="rgba(29,214,252,0.32)" offset="0.81"/>
+      <stop stop-color="rgba(15,170,248,0.56)" offset="0.91"/>
+      <stop stop-color="rgba(0,126,244,0.8)" offset="1"/>
+    </radialGradient>
+  </defs>
+</svg>

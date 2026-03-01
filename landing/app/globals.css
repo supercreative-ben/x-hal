@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #e7ebf2;
+  --color-text-dark: #132136;
+  --color-text-muted: #acb8cb;
+  --color-btn-from: #008cff;
+  --color-btn-to: #0051ff;
+  --color-pill-from: #edf0f5;
+  --color-pill-to: #cdd7e5;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

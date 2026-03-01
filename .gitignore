@@ -1,0 +1,29 @@
+# Swift build artifacts
+.build/
+build/X-HAL.app
+build/AppIcon.iconset
+build/AppIcon.icns
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# Keep the zipped app for download (tracked intentionally)
+# !landing/public/X-HAL.zip
+
+# Node / Next.js
+landing/node_modules/
+landing/.next/
+landing/out/
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
