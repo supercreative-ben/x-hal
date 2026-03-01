@@ -39,16 +39,16 @@ export default function Home() {
             <Image
               src="/logo.svg"
               alt="X-HAL"
-              width={220}
-              height={74}
+              width={200}
+              height={67}
               priority
             />
           </div>
-          <p className="text-right text-lg font-medium leading-relaxed sm:text-xl">
+          <p className="text-base font-medium leading-relaxed h-fit sm:text-right">
             <span className="text-text-dark">
-              X-HAL: Guided breathing for anxious engineers.{" "}
+              X-HAL: Guided breathing for anxious engineers.
             </span>
-            <br className="hidden sm:inline" />
+            <br />
             <span className="text-text-muted">
               HAL is here. Calm down. Exhale. Get back to work, Dave.
             </span>
@@ -56,16 +56,14 @@ export default function Home() {
         </header>
 
         {/* Hero */}
-        <section className="mt-28 sm:mt-36 lg:mt-44">
-          <h1 className="text-2xl font-medium text-text-dark sm:text-3xl lg:text-[32px]">
+        <section className="mt-[360px] mb-[80px] flex w-fit flex-col">
+          <p className="text-lg font-medium text-text-dark sm:text-xl">
             No shit you&apos;re stressed.
-          </h1>
-          <div className="mt-5 space-y-6 text-lg font-medium leading-relaxed text-text-muted sm:text-xl">
-            <p>
+          </p>
+          <div className="text-base font-medium leading-[140%] text-text-muted sm:text-xl">
+            <p className="mt-1">
               AI is taking your job. The 6 agents you&apos;re running now
               won&apos;t help.
-            </p>
-            <p>
               The fastest way to calm your nervous system: cyclic sighing.
               <br />
               Deep inhale, short inhale, long exhale.
@@ -75,21 +73,21 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        <div className="mt-14 flex flex-col items-start gap-6 sm:mt-16 sm:flex-row sm:items-center sm:gap-10">
+        <div className="mt-14 flex flex-row items-center justify-start gap-6 sm:mt-16 sm:gap-10">
           <a
             href="/X-HAL.zip"
             download
-            className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-b from-btn-from to-btn-to px-8 py-4 text-lg font-medium text-white shadow-[0_15px_44px_0_rgba(0,141,211,0.24)] transition-all hover:shadow-[0_20px_50px_0_rgba(0,141,211,0.35)] hover:brightness-110 sm:px-10 sm:py-5 sm:text-xl"
+            className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-b from-btn-from to-btn-to px-6 py-3 text-lg font-medium text-white shadow-[0_15px_44px_0_rgba(0,141,211,0.24)] transition-all hover:shadow-[0_20px_50px_0_rgba(0,141,211,0.35)] hover:brightness-110 sm:text-xl"
           >
             <span className="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_6px_11px_0_rgba(220,225,232,0.4),inset_0_-2px_5px_0_rgba(110,127,150,0.8)]" />
             <AppleIcon className="relative z-10 size-5 sm:size-6" />
             <span className="relative z-10">Download for Mac</span>
           </a>
-          <span className="text-lg text-text-muted">Try it, Dave.</span>
+          <span className="text-base text-text-muted">Try it, Dave.</span>
         </div>
 
         {/* Disclaimer */}
-        <p className="mt-20 max-w-3xl text-sm leading-relaxed text-text-muted sm:mt-24 sm:text-base">
+        <p className="mt-20 max-w-3xl text-sm leading-[1.3] text-text-muted sm:mt-24 sm:text-base">
           This is the very serious appendix. Breath-work works if you&apos;re
           not dead. The cyclic sighing technique works if you&apos;re not
           underwater. X-HAL is not made for underwater use. Or you could try but
