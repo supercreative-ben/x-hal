@@ -31,59 +31,63 @@ function AppleIcon({ className }: { className?: string }) {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-bg px-6 py-16 md:px-20 lg:py-24">
+    <main className="min-h-screen bg-bg px-6 md:px-20">
       <div className="mx-auto max-w-[860px]">
-        {/* Header */}
-        <header className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
-          <div className="shrink-0">
-            <Image
-              src="/logo.svg"
-              alt="X-HAL"
-              width={200}
-              height={67}
-              priority
-            />
-          </div>
-          <p className="text-base font-medium leading-relaxed h-fit sm:text-right">
-            <span className="text-text-dark">
-              X-HAL: Guided breathing for anxious engineers.
-            </span>
-            <br />
-            <span className="text-text-muted">
-              HAL is here. Calm down. Exhale. Get back to work, Dave.
-            </span>
-          </p>
-        </header>
-
-        {/* Hero */}
-        <section className="mt-[360px] mb-[80px] flex w-fit flex-col">
-          <p className="text-lg font-medium text-text-dark sm:text-xl">
-            No shit you&apos;re stressed.
-          </p>
-          <div className="text-base font-medium leading-[140%] text-text-muted sm:text-xl">
-            <p className="mt-1">
-              AI is taking your job. The 6 agents you&apos;re running now
-              won&apos;t help.
-              The fastest way to calm your nervous system: cyclic sighing.
+        <div className="flex flex-col py-16 lg:h-screen lg:py-24">
+          {/* Header */}
+          <header className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="shrink-0">
+              <Image
+                src="/logo.svg"
+                alt="X-HAL"
+                width={200}
+                height={67}
+                priority
+              />
+            </div>
+            <p className="text-base font-medium leading-relaxed h-fit sm:text-right">
+              <span className="text-text-dark">
+                X-HAL: Guided breathing for anxious engineers.
+              </span>
               <br />
-              Deep inhale, short inhale, long exhale.
-              <br />5 minutes. 3 times a day. That&apos;s it.
+              <span className="text-text-muted">
+                HAL is here. Calm down. Exhale. Get back to work, Dave.
+              </span>
             </p>
-          </div>
-        </section>
+          </header>
 
-        {/* CTA */}
-        <div className="mt-14 flex flex-row items-center justify-start gap-6 sm:mt-16 sm:gap-10">
-          <a
-            href="/X-HAL.zip"
-            download
-            className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-b from-btn-from to-btn-to px-6 py-3 text-lg font-medium text-white shadow-[0_15px_44px_0_rgba(0,141,211,0.24)] transition-all hover:shadow-[0_20px_50px_0_rgba(0,141,211,0.35)] hover:brightness-110 sm:text-xl"
-          >
-            <span className="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_6px_11px_0_rgba(220,225,232,0.4),inset_0_-2px_5px_0_rgba(110,127,150,0.8)]" />
-            <AppleIcon className="relative z-10 size-5 sm:size-6" />
-            <span className="relative z-10">Download for Mac</span>
-          </a>
-          <span className="text-base text-text-muted">Try it, Dave.</span>
+          <div className="hidden lg:block lg:flex-1" />
+
+          {/* Hero */}
+          <section className="mt-[360px] mb-[80px] lg:mt-0 lg:mb-0 flex w-fit flex-col">
+            <p className="text-lg font-medium text-text-dark sm:text-xl">
+              No shit you&apos;re stressed.
+            </p>
+            <div className="text-base font-medium leading-[140%] text-text-muted sm:text-xl">
+              <p className="mt-1">
+                AI is taking your job. The 6 agents you&apos;re running now
+                won&apos;t help.
+                The fastest way to calm your nervous system: cyclic sighing.
+                <br />
+                Deep inhale, short inhale, long exhale.
+                <br />5 minutes. 3 times a day. That&apos;s it.
+              </p>
+            </div>
+          </section>
+
+          {/* CTA */}
+          <div className="mt-14 flex flex-row items-center justify-start gap-6 sm:mt-16 sm:gap-10 lg:mt-8">
+            <a
+              href="/X-HAL.zip"
+              download
+              className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-b from-btn-from to-btn-to px-6 py-3 text-lg font-medium text-white shadow-[0_15px_44px_0_rgba(0,141,211,0.24)] transition-all hover:shadow-[0_20px_50px_0_rgba(0,141,211,0.35)] hover:brightness-110 sm:text-xl"
+            >
+              <span className="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_6px_11px_0_rgba(220,225,232,0.4),inset_0_-2px_5px_0_rgba(110,127,150,0.8)]" />
+              <AppleIcon className="relative z-10 size-5 sm:size-6" />
+              <span className="relative z-10">Download for Mac</span>
+            </a>
+            <span className="text-base text-text-muted">Try it, Dave.</span>
+          </div>
         </div>
 
         {/* Disclaimer */}
